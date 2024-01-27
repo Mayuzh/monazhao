@@ -9,16 +9,16 @@ const EditContent = () => {
     // Fetch content from Firebase
     const fetchData = async () => {
       try {
-        const docRef = firestore.collection('your-collection-name').doc('content');
-        const snapshot = await docRef.get();
+        const docRef = firestore.collection('your-collection-name').doc('your-document-id');
+        const docSnapshot = await docRef.get();
 
-        if (snapshot.exists()) {
-          setContent(snapshot.data().content);
+        if (docSnapshot.exists()) {
+          setContent(docSnapshot.data().content);
         } else {
-          console.log('No such document!');
+          console.log('Document does not exist!');
         }
       } catch (error) {
-        console.error('Error getting document:', error);
+        console.error('Error fetching document:', error);
       }
     };
 
@@ -27,7 +27,7 @@ const EditContent = () => {
 
   const handleSave = () => {
     // Save edited content to Firebase
-    const docRef = firestore.collection('your-collection-name').doc('content');
+    const docRef = firestore.collection('your-collection-name').doc('your-document-id');
     docRef.set({ content });
   };
 
