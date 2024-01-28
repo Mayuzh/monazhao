@@ -1,7 +1,6 @@
-// components/Portfolio.js
+// pages/Portfolio.js
 import React, { useState, useEffect } from 'react';
 import { firestore } from '../firebase';
-import Navbar from '../components/NavBar'; // Adjust the path based on your project structure
 
 const Portfolio = () => {
   const [content, setContent] = useState('');
@@ -26,11 +25,22 @@ const Portfolio = () => {
     fetchData();
   }, []);
 
+  const name = "Your Name"; // Replace with the actual name
+  const selfIntro = "Your self-introduction goes here."; // Replace with the actual self-introduction
+
   return (
-    <div>
-      <Navbar />
-      <h1>Portfolio</h1>
-      <p>{content}</p>
+    <div id="home" className="">
+
+      <div className="flex flex-col pt-24 px-36">
+        <div className="flex-shrink-0 px-12">
+          <img
+            src="/mona.jpg"
+            alt="Profile Photo"
+            className="w-1/5 h-auto rounded-full"
+          />
+        </div>
+        <h1 className="text-3xl font-normal mb-4">{name}</h1>
+      </div>
     </div>
   );
 };

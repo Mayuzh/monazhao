@@ -7,22 +7,26 @@ import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
 import Protected from './pages/protected';
 import Portfolio from './pages/Portfolio';
+import Navbar from './components/NavBar'; // Import Navbar component
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Portfolio />} index />
-        <Route
-          path="/dashboard"
-          element={
-            <Protected>
-              <Dashboard />
-            </Protected>
-          }
-        />
-        <Route path="/login" element={<Login />} />
-      </Routes>
+      <div>
+        <Navbar /> {/* Include Navbar component here */}
+        <Routes>
+          <Route path="/" element={<Portfolio />} index />
+          <Route
+            path="/dashboard"
+            element={
+              <Protected>
+                <Dashboard />
+              </Protected>
+            }
+          />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </div>
     </BrowserRouter>
   );
 }
