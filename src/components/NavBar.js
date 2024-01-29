@@ -27,10 +27,6 @@ const Navbar = () => {
           >
             projects.
           </ScrollLink>
-          {/* Add similar ScrollLink components for other sections */}
-          <a href="/Resume.pdf" target="_blank" className="hover:text-gray-300">
-            resume.
-          </a>
           <ScrollLink
             to="publications"
             smooth={true}
@@ -39,6 +35,9 @@ const Navbar = () => {
           >
             publications.
           </ScrollLink>
+          <a href="/Resume.pdf" target="_blank" className="hover:text-gray-300">
+            resume.
+          </a>
         </div>
       </div>
     </nav>
