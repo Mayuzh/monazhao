@@ -5,8 +5,8 @@ import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <nav className="bg-pink-50 px-8 py-6 drop-shadow-lg fixed w-full top-0 z-10">
-      <div className="mx-36 flex justify-between items-center">
+    <nav className="bg-pink-50 py-6 drop-shadow-lg fixed w-full top-0 z-10">
+      <div className="mx-64 flex justify-between items-center">
         <Link to="/" className="text-pink-950 text-2xl font-semibold">
           Yumeng 'Mona' Zhao
         </Link>
