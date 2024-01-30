@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import "./index.css";
 
 import Login from './pages/Login';
@@ -11,7 +11,7 @@ import Navbar from './components/NavBar'; // Import Navbar component
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
         <Navbar /> {/* Include Navbar component here */}
         <Routes>
@@ -27,7 +27,7 @@ function App() {
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
