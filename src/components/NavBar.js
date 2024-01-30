@@ -49,7 +49,7 @@ const Navbar = () => {
             to="publications"
             smooth={true}
             duration={500}
-            offset={0}
+            offset={-200}
             spy={true}
             activeClass='active'
           >
@@ -59,6 +59,7 @@ const Navbar = () => {
             to="contact"
             smooth={true} 
             duration={500}
+            offset={-120}
             spy={true}
             activeClass='active'
           >
