@@ -10,10 +10,10 @@ const Experiences = () => {
     return (
         <div id='experiences' className='title flex flex-row max-w-7xl mx-auto px-6'>
             <div className='flex flex-col w-[30%] py-8 pl-4'>
-                <div className='text-[50px]'>{title}</div>
+                <div className='text-[46px]'>{title}</div>
             </div>
 
-            <div className='flex flex-col p-4 w-[70%] space-y-6 leading-relaxed'>
+            <div className='flex flex-col p-4 w-[70%] space-y-6 leading-loose'>
                 <div className='flex flex-col mt-8 space-y-6'>
                     <div className='normal flex flex-row'>
                         <MdComputer size={28} className='mr-5 mt-3 text-pink-950' />

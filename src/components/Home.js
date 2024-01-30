@@ -43,7 +43,18 @@ const Home = () => {
             </div>
 
             <div className='flex flex-col p-4 w-[70%] space-y-6 leading-relaxed'>
-                <span className='normal text-[21px]'>{selfIntro1}</span>
+                <span className='normal text-[21px]'>
+                    Hello, I'm Mona! I am a master student in&nbsp;
+                    <a className='text-pink-950 hover:underline' href="https://engineering.ucsc.edu/departments/computer-science-and-engineering/" target="_blank" rel="noopener noreferrer">
+                        Computer Science and Engineering
+                    </a>
+                    &nbsp;at&nbsp;
+                    <a className='text-pink-950 hover:underline' href="https://www.ucsc.edu/" target="_blank" rel="noopener noreferrer">
+                        UC Santa Cruz.
+                    </a>
+                    &nbsp;I am currently working as a Graduate Student Researcher (GSR) at the UCSC Advanced Visualization and Interactive Systems (AVIS) Lab advised by Professor Alex Pang.
+                </span>
+
                 <span className='normal text-[21px]'>{selfIntro2}</span>
                 <span className='normal text-[21px]'>{selfIntro3}</span>
                 <div className='flex flex-row'>

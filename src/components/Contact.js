@@ -7,10 +7,10 @@ const Contact = () => {
     return (
         <div id='contact' className='flex flex-row max-w-7xl mx-auto px-6'>
             <div className='title flex flex-col w-[30%] py-8 pl-4'>
-               <div className='text-[50px]'>{title}</div>
+               <div className='text-[46px]'>{title}</div>
             </div>
 
-            <div className='normal flex flex-col p-12 w-[70%] space-y-6 leading-relaxed'>
+            <div className='normal flex flex-col px-4 py-12 w-[70%] space-y-6 leading-relaxed'>
                 <div className='text-[28px]'>yzhao172 @ ucsc.edu</div>
             </div>
         </div>

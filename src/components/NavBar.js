@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import { FcLikePlaceholder } from "react-icons/fc";
 
-import './styles.css'; // Import the CSS file
+import './styles.css'; 
 
 const Navbar = () => {
   return (
@@ -14,13 +14,14 @@ const Navbar = () => {
           <FcLikePlaceholder size={36} className='mx-4'/>
           <div className="monazhao-logo">MONA ZHAO</div>
         </Link>
-        <div className="nav-options space-x-5 text-pink-950 font-medium">
+        <div className="nav-options space-x-5 text-pink-950">
           <ScrollLink
             to="home"
             smooth={true}
             duration={500}
-            offset={-150}
-            className="hover:text-gray-300"
+            offset={-120}
+            spy={true}
+            activeClass='active'
           >
             Home
           </ScrollLink>
@@ -28,7 +29,9 @@ const Navbar = () => {
             to="experiences"
             smooth={true}
             duration={500}
-            className="hover:text-gray-300"
+            offset={-120}
+            spy={true}
+            activeClass='active'
           >
             Experiences
           </ScrollLink>
@@ -36,7 +39,9 @@ const Navbar = () => {
             to="projects"
             smooth={true}
             duration={500}
-            className="hover:text-gray-300"
+            offset={-120}
+            spy={true}
+            activeClass='active'
           >
             Projects
           </ScrollLink>
@@ -44,7 +49,9 @@ const Navbar = () => {
             to="publications"
             smooth={true}
             duration={500}
-            className="hover:text-gray-300"
+            offset={0}
+            spy={true}
+            activeClass='active'
           >
             Publications
           </ScrollLink>
@@ -52,11 +59,12 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="hover:text-gray-300"
+            spy={true}
+            activeClass='active'
           >
             Contact
           </ScrollLink>
-          <a href="/Resume.pdf" target="_self" className="hover:text-gray-300">
+          <a href="/Resume.pdf" target="_blank" className="hover:text-gray-300">
             Resume
           </a>
         </div>

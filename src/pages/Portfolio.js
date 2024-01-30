@@ -34,19 +34,19 @@ const Portfolio = () => {
 
   return (
     <div>
-      <div className='py-10'>
+      <div className='pt-10 pb-24'>
         <Home />
       </div>
-      <div className='bg-pink-50'>
+      <div className='bg-pink-50 py-24 '>
         <Experiences />
       </div>
-      <div className=''>
+      <div className='py-24 '>
         <Projects />
       </div>
-      <div className='bg-pink-50'>
+      <div className='bg-pink-50 py-24 '>
         <Publications />
       </div>
-      <div className=''>
+      <div className='py-24 '>
         <Contact />
       </div>
     </div>
