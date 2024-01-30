@@ -19,7 +19,7 @@ const Projects = () => {
                     <div className='flex flex-col'>
                         <a href="https://github.com/Jeffuz/EcoScan" target="_blank" rel="noopener noreferrer">
                             <img
-                                src="/ecoscan.png"
+                                src={require(`../images/ecoscan.png`)}
                                 alt="EcoScan Project"
                                 className="object-cover h-80 w-96 mx-auto"
                             />
@@ -49,7 +49,7 @@ const Projects = () => {
                     <div className='flex flex-col'>
                         <a href="https://github.com/Jeffuz/EduTrade" target="_blank" rel="noopener noreferrer">
                             <img
-                                src="/edutrade.png"
+                                src={require(`../images/edutrade.png`)}
                                 alt="EduTrade Project"
                                 className="object-cover h-80 w-96 mx-auto"
                             />
@@ -80,7 +80,7 @@ const Projects = () => {
                     <div className='flex flex-col'>
                         <a href="https://github.com/Jeffuz/FitFlow" target="_blank" rel="noopener noreferrer">
                             <img
-                                src="/fitflow.png"
+                                src={require(`../images/fitflow.png`)}
                                 alt="FitFlow Project"
                                 className="object-cover h-80 w-96 mx-auto"
                             />

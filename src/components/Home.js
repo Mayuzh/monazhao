@@ -18,11 +18,7 @@ const Home = () => {
     return (
         <div id='home' className='flex flex-row max-w-7xl mx-auto mt-20 px-6'>
             <div className='flex flex-col w-[30%] py-8'>
-                <img
-                    src="/mona.jpg"
-                    alt="Profile Photo"
-                    className="w-52 rounded-full mx-auto"
-                />
+                <img src={require(`../images/mona.jpg`)} alt="Profile Photo" className="w-52 rounded-full mx-auto"/>
                 <div className='title flex flex-col text-center mt-4 leading-none'>
                     <div className="text-[40px]">{name}</div>
                     <div className="text-[22px] text-stone-500 my-3">{major}</div>

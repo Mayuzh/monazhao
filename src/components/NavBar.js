@@ -57,14 +57,14 @@ const Navbar = () => {
           </ScrollLink>
           <ScrollLink
             to="contact"
-            smooth={true}
+            smooth={true} 
             duration={500}
             spy={true}
             activeClass='active'
           >
             Contact
           </ScrollLink>
-          <a href="/Resume.pdf" target="_blank" className="hover:text-gray-300">
+          <a href={require(`../images/Resume.pdf`)} target="_blank" className="">
             Resume
           </a>
         </div>
