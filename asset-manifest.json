@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/monazhao/static/css/main.f92a4470.css",
+    "main.js": "/monazhao/static/js/main.0e87779a.js",
+    "static/js/787.77557656.chunk.js": "/monazhao/static/js/787.77557656.chunk.js",
+    "index.html": "/monazhao/index.html",
+    "main.f92a4470.css.map": "/monazhao/static/css/main.f92a4470.css.map",
+    "main.0e87779a.js.map": "/monazhao/static/js/main.0e87779a.js.map",
+    "787.77557656.chunk.js.map": "/monazhao/static/js/787.77557656.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f92a4470.css",
+    "static/js/main.0e87779a.js"
+  ]
+}
