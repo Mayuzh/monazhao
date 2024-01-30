@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/monazhao/static/css/main.b76465ad.css",
-    "main.js": "/monazhao/static/js/main.d9e5a987.js",
+    "main.css": "/monazhao/static/css/main.7e84b3d2.css",
+    "main.js": "/monazhao/static/js/main.b461ce95.js",
     "static/js/787.77557656.chunk.js": "/monazhao/static/js/787.77557656.chunk.js",
     "static/media/ecoscan.png": "/monazhao/static/media/ecoscan.c580c7f84c71195c11ec.png",
     "static/media/fitflow.png": "/monazhao/static/media/fitflow.c6f8d0187b59125036b6.png",
@@ -9,12 +9,12 @@
     "static/media/edutrade.png": "/monazhao/static/media/edutrade.f8321f53a77dbfa914c5.png",
     "static/media/Resume.pdf": "/monazhao/static/media/Resume.3ce9a70b4f39dbef27c9.pdf",
     "index.html": "/monazhao/index.html",
-    "main.b76465ad.css.map": "/monazhao/static/css/main.b76465ad.css.map",
-    "main.d9e5a987.js.map": "/monazhao/static/js/main.d9e5a987.js.map",
+    "main.7e84b3d2.css.map": "/monazhao/static/css/main.7e84b3d2.css.map",
+    "main.b461ce95.js.map": "/monazhao/static/js/main.b461ce95.js.map",
     "787.77557656.chunk.js.map": "/monazhao/static/js/787.77557656.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b76465ad.css",
-    "static/js/main.d9e5a987.js"
+    "static/css/main.7e84b3d2.css",
+    "static/js/main.b461ce95.js"
   ]
 }
