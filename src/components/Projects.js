@@ -35,7 +35,7 @@ const Projects = () => {
                             EcoScan uses data scraped from Amazon to assess the environmental impact of products,
                             presenting key details like material composition and impacts from manufacturing and shipping.
                         </span>
-                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4'>
+                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4 md:gap-0 gap-2'>
                             <div>React.js</div>
                             <div>Tailwind CSS</div>
                             <div>Flask</div>
@@ -65,7 +65,7 @@ const Projects = () => {
                             A platform for students to share or sell their used school supplies locally. Users can create listings,
                             engage in private chats, participate in discussions, and search for items based on location.
                         </span>
-                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4'>
+                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4 md:gap-0 gap-2'>
                             <div>React.js</div>
                             <div>Tailwind CSS</div>
                             <div>Firebase</div>
@@ -96,7 +96,7 @@ const Projects = () => {
                             A website that uses the OpenAI api to generate customized workouts, nutrtion and exercise recommendation.
                             Users fill out a questionnaire that asks them various questions, about goals, lifestyle, and what they are aiming for.
                         </span>
-                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4'>
+                        <span className='flex lg:flex-row md:flex-col normal text-stone-500 text-[14px] lg:gap-4 md:gap-0 gap-2'>
                             <div>React.js</div>
                             <div>Tailwind CSS</div>
                             <div>Flask</div>

@@ -18,7 +18,7 @@ const Experiences = () => {
                     <div className='normal flex flex-row'>
                         <MdComputer size={28} className='mr-5 mt-3 text-pink-950' />
                         <div className='flex flex-col'>
-                            <span className='title lg:text-[30px] text-[24px]'>Research</span>
+                            <span className='title lg:text-[30px] text-[24px]'>Researcher</span>
                             <span className='text-stone-500 text-base'>UC Santa Cruz</span>
                             <span className='lg:text-[21px] text-[16px]'>Undergraduate Research Intern</span>
                             <span className='lg:text-[21px] text-[16px]'>Graduate Student Researcher</span>
