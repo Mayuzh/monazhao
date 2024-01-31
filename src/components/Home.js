@@ -59,7 +59,7 @@ const Home = () => {
                             <FaGraduationCap size={28} className='mr-5 text-pink-950' />
                             <div className='flex flex-col '>
                                 <span className='lg:text-[20px] text-[16px]'>M.S. in Computer Science and Engineering</span>
-                                <span className='text-stone-500 lg:text-base text-[14px]'>2023 - 2024</span>
+                                <span className='text-stone-500 lg:text-base text-[14px]'>2024 - present</span>
                                 <span className='text-stone-500 lg:text-base text-[14px]'>UC Santa Cruz</span>
                             </div>
                         </div>
