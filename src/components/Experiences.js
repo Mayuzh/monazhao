@@ -19,27 +19,28 @@ const Experiences = () => {
                         <MdComputer size={28} className='mr-5 mt-3 text-pink-950' />
                         <div className='flex flex-col'>
                             <span className='title lg:text-[30px] text-[24px]'>Researcher</span>
-                            <span className='text-stone-500 text-base'>UC Santa Cruz</span>
+                            <span className='text-stone-500 text-base'>Advanced Visualization and Interactive Systems Lab at UC Santa Cruz</span>
                             <span className='lg:text-[21px] text-[16px]'>Undergraduate Research Intern</span>
-                            <span className='lg:text-[21px] text-[16px]'>Graduate Student Researcher</span>
+                            <span className='lg:text-[21px] text-[16px]'>Graduate Student Researcher(GSR)</span>
                         </div>
                     </div>
                     <div className='normal flex flex-row'>
                         <IoCodeWorkingSharp size={28} className='mr-5 mt-3 text-pink-950' />
                         <div className='flex flex-col'>
                             <span className='title lg:text-[30px] text-[24px]'>Software Developer</span>
-                            <span className='text-stone-500 text-base'>CITRIS and the Banatao Institute - CITRIS Workforce Innovation</span>
-                            <span className='lg:text-[21px] text-[16px]'>RoboticsCats</span>
+                            <span className='text-stone-500 text-base'>CITRIS and the Banatao Institute - RoboticsCats</span>
+                            <span className='lg:text-[21px] text-[16px]'>CITRIS Workforce Innovation Intern</span>
                         </div>
                     </div>
                     <div className='normal flex flex-row'>
                         <FaChalkboardTeacher size={28} className='mr-5 mt-3 text-pink-950' />
                         <div className='flex flex-col'>
                             <span className='title lg:text-[30px] text-[24px]'>Group Tutor and Reader</span>
-                            <span className='text-stone-500 text-base'>UC Santa Cruz</span>
-                            <span className='lg:text-[21px] text-[16px]'>CSE 30: (Programming Abstractions: Python)</span>
-                            <span className='lg:text-[21px] text-[16px]'>CSE 101: (Introduction to Data Structures and Algorithms)</span>
-                            <span className='lg:text-[21px] text-[16px]'>CSE 144: (Applied Machine Learning: Deep Learning)</span>
+                            <span className='text-stone-500 text-base'>Baskin Engineering at UC Santa Cruz</span>
+                            <span className='lg:text-[21px] text-[16px]'>CSE 30 (Programming Abstractions: Python)</span>
+                            <span className='lg:text-[21px] text-[16px]'>CSE 101 (Introduction to Data Structures and Algorithms)</span>
+                            <span className='lg:text-[21px] text-[16px]'>CSE 144 (Applied Machine Learning: Deep Learning)</span>
+                            <span className='lg:text-[21px] text-[16px]'>CSE182 (Introduction to Database Management Systems)</span>
                         </div>
                     </div>
 
