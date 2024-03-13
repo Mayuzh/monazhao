@@ -39,7 +39,7 @@ const Home = () => {
 
             <div className='flex flex-col p-4 lg:w-[70%] space-y-6 leading-relaxed'>
                 <span className='normal lg:text-[21px] text-[16px]'>
-                    Hello, I'm Mona! I am a master student in&nbsp;
+                    Hello, I'm Mona! I am a master's student in&nbsp;
                     <a className='text-pink-950 hover:underline' href="https://engineering.ucsc.edu/departments/computer-science-and-engineering/" target="_blank" rel="noopener noreferrer">
                         Computer Science and Engineering
                     </a>
