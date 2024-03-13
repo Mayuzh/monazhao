@@ -10,7 +10,7 @@ import { SiDevpost } from "react-icons/si";
 const Home = () => {
     // Add the content of the home section here
     const name = "Yumeng Zhao"; // Replace with the actual name
-    const major = "Master Student";
+    const major = "Master's Student";
     const college = "UC Santa Cruz";
     const selfIntro2 = "My current research focuses on developing and comparing different machine learning models for the purpose of extracting shorelines from video frames, which can be applied in environmental monitoring and coastal management."
     const selfIntro3 = "I am also enthusiastic about full-stack development, using modern tools to create websites and software. My passion lies in crafting seamless and user-friendly digital experiences by employing the latest development technologies.";
