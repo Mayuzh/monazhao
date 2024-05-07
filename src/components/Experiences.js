@@ -35,6 +35,14 @@ const Experiences = () => {
                     <div className='normal flex flex-row'>
                         <FaChalkboardTeacher size={28} className='mr-5 mt-3 text-pink-950' />
                         <div className='flex flex-col'>
+                            <span className='title lg:text-[30px] text-[24px]'>Teaching Assistant</span>
+                            <span className='text-stone-500 text-base'>Baskin Engineering at UC Santa Cruz</span>
+                            <span className='lg:text-[21px] text-[16px]'>CSE 115a (Introduction to Software Engineering)</span>
+                        </div>
+                    </div>
+                    <div className='normal flex flex-row'>
+                        <FaChalkboardTeacher size={28} className='mr-5 mt-3 text-pink-950' />
+                        <div className='flex flex-col'>
                             <span className='title lg:text-[30px] text-[24px]'>Group Tutor and Reader</span>
                             <span className='text-stone-500 text-base'>Baskin Engineering at UC Santa Cruz</span>
                             <span className='lg:text-[21px] text-[16px]'>CSE 30 (Programming Abstractions: Python)</span>

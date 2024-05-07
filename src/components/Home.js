@@ -96,7 +96,7 @@ const Home = () => {
                         <div className='normal flex flex-row mb-2'>
                             <GiFallingStar size={24} className='mr-5 text-pink-950' />
                             <div className=''>
-                                Web Development
+                                Software Development
                             </div>
                         </div>
                     </div>
