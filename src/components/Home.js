@@ -9,7 +9,7 @@ import { SiDevpost } from "react-icons/si";
 
 const Home = () => {
     // Add the content of the home section here
-    const name = "Yumeng Zhao"; // Replace with the actual name
+    const name = "(Mona) Yumeng Zhao"; // Replace with the actual name
     const major = "Master's Student";
     const college = "UC Santa Cruz";
     const selfIntro2 = "My current research focuses on developing and comparing different machine learning models for the purpose of extracting shorelines from video frames, which can be applied in environmental monitoring and coastal management."
@@ -19,9 +19,9 @@ const Home = () => {
             <div className='flex flex-col lg:w-[30%] py-8 px-2'>
                 <img src={require(`../images/mona.jpg`)} alt="Profile Photo" className="w-52 rounded-full mx-auto" />
                 <div className='title flex flex-col text-center mt-4 leading-none'>
-                    <div className="lg:text-[38px] text-[28px] px-4 py-2">{name}</div>
-                    <div className="lg:text-[22px] text-[16px] text-stone-500 my-3">{major}</div>
-                    <div className="lg:text-[22px] text-[16px] text-stone-500">{college}</div>
+                    <div className="lg:text-[38px] text-[28px] px-4 py-3">{name}</div>
+                    {/* <div className="lg:text-[22px] text-[16px] text-stone-500 my-3">{major}</div> */}
+                    <div className="lg:text-[22px] text-[16px] text-stone-500 pt-2">{college}</div>
                     <div className='flex justify-center space-x-4 mt-9'>
                         <MdEmail size={36} className='text-pink-950 icon-link icon-link:hover' />
                         <a href="https://www.linkedin.com/in/monazhao417/" target="_blank" rel="noopener noreferrer">
@@ -38,17 +38,45 @@ const Home = () => {
             </div>
 
             <div className='flex flex-col p-4 lg:w-[70%] space-y-6 leading-relaxed'>
-                <span className='normal lg:text-[21px] text-[16px]'>
-                    Hello, I'm Mona! I am a master's student in&nbsp;
-                    <a className='text-pink-950 hover:underline' href="https://engineering.ucsc.edu/departments/computer-science-and-engineering/" target="_blank" rel="noopener noreferrer">
-                        Computer Science and Engineering
-                    </a>
-                    &nbsp;at&nbsp;
-                    <a className='text-pink-950 hover:underline' href="https://www.ucsc.edu/" target="_blank" rel="noopener noreferrer">
-                        UC Santa Cruz.
-                    </a>
-                    &nbsp;I am currently working as a Graduate Student Researcher (GSR) at the UCSC Advanced Visualization and Interactive Systems (AVIS) Lab advised by Professor Alex Pang.
-                </span>
+            <span className='normal lg:text-[21px] text-[16px]'>
+            Hello, I'm Mona! I am a master's student in&nbsp;
+            <a
+                className='text-pink-950 hover:underline'
+                href="https://engineering.ucsc.edu/departments/computer-science-and-engineering/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Computer Science and Engineering
+            </a>
+            &nbsp;at&nbsp;
+            <a
+                className='text-pink-950 hover:underline'
+                href="https://www.ucsc.edu/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                UC Santa Cruz.
+            </a>
+            &nbsp;I am currently working as a Graduate Student Researcher (GSR) at the UCSC Advanced Visualization and Interactive Systems (
+            <a
+                className='text-pink-950 hover:underline'
+                href="https://sites.google.com/ucsc.edu/vis/home/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                AVIS
+            </a>
+            ) Lab advised by Professor&nbsp;
+            <a
+                className='text-pink-950 hover:underline'
+                href="https://users.soe.ucsc.edu/~pang/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Alex Pang
+            </a>.
+            </span>
+
 
                 <span className='normal lg:text-[21px] text-[16px]'>{selfIntro2}</span>
                 <span className='normal lg:text-[21px] text-[16px]'>{selfIntro3}</span>
